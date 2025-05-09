@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif; /* set the font*/
+    line-height: 1.6; /* set line height to 1.6 for better readability */
+}
+
+/* Card hover effect */
+.card {
+    transition: transform 0.5s; /* smooth transition for scale effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* on hover - enlarge the card */
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: black; /* background color to black for dark mode */
+    color: white; /* text color to white for dark mode */
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* Responsive style for smaller screens (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+
+    /* Adjust the layout of cards in the row to stack vertically */
+    .row {
+        gap: 20px; /* add 20px gap between stacked cards */
+    }
+
+    .remove{
+        height: 20px; /* set height of remove button */
+        width: 60px; /* set width of remove button */
+        font-size: 10px; /* set smaller font size for remove button */
+        line-height: 50%; /* adjust line height for better vertical alignment */
+    }
+
+    .checkout{
+        height: 40px; /* set height of checkout button */
+        width: 100px; /* set width of checkout button */
+        font-size: 13px; /* set font size of checkout button */
+        line-height: 100%; /* adjust line height for checkout button */
+    }
+
+    footer{
+        font-size: 14px; /* set font size for footer text */
+    }
+    
+    p{
+        font-size: 14px; /* set font size for paragraphs */
+    }
+    
+}
+
+  
+
+
+
+
+
